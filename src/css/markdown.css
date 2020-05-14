@@ -1,0 +1,83 @@
+.h1-text {
+    font-size: 2em;
+}
+.h2-text {
+    font-size: 1.5em;
+    margin-left: .1em;
+}
+.h3-text {
+    font-size: 1.25em;
+}
+.h4-text {
+    font-size: 1em;
+}
+.h5-text {
+    font-size: .875em;
+}
+.h6-text {
+    font-size: .85em;
+    color: #6a737d;
+}
+.h1-text, .h2-text {
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
+}
+.h1-text, .h2-text, .h3-text, .h4-text, .h5-text, .h6-text {
+    font-weight: 600;
+    line-height: 1.25;
+}
+.h3-text, .h4-text, .h5-text, .h6-text {
+    margin-left: .125em;
+}
+.codeBox {
+    font-size: 13px;
+    /* border-radius: 5px; */
+    padding: 1em 2.5em;
+    line-height: 1.5;
+    margin: 10px 0;
+    background-color: #f8f8f8;
+}
+
+
+
+.blockquoteBox {
+    margin: 1.5em 0;
+    color: #000;
+    border-left: .5em solid #19455c;;
+    padding: 1em;
+    background-color: #f8f8f8;
+}
+.blockquoteBox p {
+    margin: 0;
+}
+
+.codespanBox {
+    margin: 0;
+    font-size: .785em;
+    font-weight: bold;
+    padding: .125em;
+    margin: 0 3px;
+    background-color: rgba(27,31,35,.05); 
+    border-radius: 3px;
+    color: #6a737d;
+    border: 1px solid #eee;
+}
+.imgBox {
+    margin: 1.5em 0;
+    text-align: center;
+}
+.aBox {
+    text-decoration: none;
+    font-weight: 600;
+    color: #264c72;
+}
+.imgBox img {
+    max-width: 100%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    border-radius: .5em;
+}
+p, li {
+    font-size: 1em;
+    letter-spacing: 3px;
+    line-height: 2;
+}

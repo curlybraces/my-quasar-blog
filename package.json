@@ -1,0 +1,39 @@
+{
+  "name": "quasar-blog",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "xuerzong <xuerzong@sina.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "deploy": "now"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "firebase": "^7.14.2",
+    "highlight.js": "^10.0.0",
+    "leancloud-storage": "^4.5.3",
+    "marked": "^1.0.0",
+    "quasar": "^1.0.0",
+    "showdown": "^1.9.1",
+    "vue-router": "^3.0.7",
+    "vuefire": "^2.2.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
