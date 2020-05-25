@@ -16,14 +16,12 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
-    "firebase": "^7.14.2",
     "highlight.js": "^10.0.0",
     "leancloud-storage": "^4.5.3",
-    "marked": "^1.0.0",
+    "markdown-it": "^10.0.0",
     "quasar": "^1.0.0",
     "showdown": "^1.9.1",
-    "vue-router": "^3.0.7",
-    "vuefire": "^2.2.2"
+    "vue-router": "^3.0.7"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0"

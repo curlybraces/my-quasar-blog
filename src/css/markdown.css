@@ -1,83 +1,67 @@
-.h1-text {
+
+h1 {
     font-size: 2em;
 }
-.h2-text {
+h2 {
     font-size: 1.5em;
     margin-left: .1em;
 }
-.h3-text {
+h3 {
     font-size: 1.25em;
 }
-.h4-text {
+h4 {
     font-size: 1em;
 }
-.h5-text {
+h5 {
     font-size: .875em;
 }
-.h6-text {
+h6 {
     font-size: .85em;
     color: #6a737d;
 }
-.h1-text, .h2-text {
+h1, h2 {
     padding-bottom: .3em;
     border-bottom: 1px solid #eaecef;
 }
-.h1-text, .h2-text, .h3-text, .h4-text, .h5-text, .h6-text {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.25;
 }
-.h3-text, .h4-text, .h5-text, .h6-text {
+
+h3, h4, h5, h6 {
     margin-left: .125em;
 }
-.codeBox {
-    font-size: 13px;
-    /* border-radius: 5px; */
-    padding: 1em 2.5em;
-    line-height: 1.5;
-    margin: 10px 0;
-    background-color: #f8f8f8;
+
+blockquote {
+    border-left: .2em solid #dfe2e5;
+    margin: 0 0 1em 0;
+    padding: 0 1em;
+}
+.article-container a {
+    text-decoration: none;
+    color: #19455c;
+    font-weight: 600;
 }
 
-
-
-.blockquoteBox {
-    margin: 1.5em 0;
-    color: #000;
-    border-left: .5em solid #19455c;;
-    padding: 1em;
-    background-color: #f8f8f8;
-}
-.blockquoteBox p {
-    margin: 0;
-}
-
-.codespanBox {
-    margin: 0;
-    font-size: .785em;
-    font-weight: bold;
-    padding: .125em;
-    margin: 0 3px;
-    background-color: rgba(27,31,35,.05); 
-    border-radius: 3px;
-    color: #6a737d;
+code {
+    padding: .25em .5em;
+    color: #1565c0;
+    font-size: .75em;
+    margin: 0 0.2rem;
+    background-color: #e3f2fd;
+    border-radius: 0.3rem;
     border: 1px solid #eee;
 }
-.imgBox {
-    margin: 1.5em 0;
-    text-align: center;
+.article-container pre code {
+    padding: 0;
+    font-size: .75em;
+    color: #d6deeb;
+    background-color: transparent;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    border: none;
+    border-radius: 0;
 }
-.aBox {
-    text-decoration: none;
-    font-weight: 600;
-    color: #264c72;
-}
-.imgBox img {
-    max-width: 100%;
-    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-    border-radius: .5em;
-}
-p, li {
-    font-size: 1em;
-    letter-spacing: 3px;
-    line-height: 2;
+body .article-container p{
+    line-height: 1.5rem;
 }

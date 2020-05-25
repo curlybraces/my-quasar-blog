@@ -58,8 +58,8 @@ export default {
     });
   },
   methods: {
-    goToArticleById(article_id) {
-      this.$router.push("/article/" + article_id);
+    goToArticleById(articleId) {
+      this.$router.push(`/article/${articleId}`);
     }
   }
 };
