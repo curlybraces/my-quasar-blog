@@ -1,7 +1,7 @@
 # Quasar App (quasar-blog)
 
 My own blog with [Quasar Framework](https://quasar.dev).
-Live demo: [Click Here](https://blog.xc-cs.com).
+Live demo: [Click Here](https://quasar-blog.now.sh/).
 
 ## Install the dependencies
 ```bash
